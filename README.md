@@ -7,3 +7,5 @@ le pedira su nombre despues para iniciar la partida oprima a
 despues le pedira las dimensiones de el juego 
 y el numero de minas
 luego encontramos que crea la matriz ya lista para jugar luego te pedira las coordenadsa de cada punto para ir descubriendo donde estan las minas al dar con la coordenada de una mina perderas y volvera a comenzar el ciclo para poder jugar de nuevo y es el mismo proceso
+
+anexo una prueba unitara con junit de java se llama prueba1
