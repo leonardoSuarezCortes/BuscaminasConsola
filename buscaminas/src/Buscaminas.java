@@ -20,7 +20,7 @@ public class Buscaminas {
 	int dimensiones2 = 0;
 	int numeroMinas = 0;
 	System.out.println("Digite enter para continuar.....");
-	// Selector de idioma básico
+
 	while (corriendo3) {
 	   
 	    String idioma = br.readLine();
@@ -58,7 +58,7 @@ public class Buscaminas {
 						.readLine()));
 					if (dimensiones > 100) {
 					    System.err
-						    .println("Error. Máximo 100, por favor\n");
+						    .println("Error. MÃ¡ximo 100, por favor\n");
 					    break;
 					}
 					
@@ -70,17 +70,17 @@ public class Buscaminas {
 						.readLine())); 
 					if (dimensiones2 > 100) {
 					    System.err
-						    .println("Error. Máximo 100, por favor\n");
+						    .println("Error. MÃ¡ximo 100, por favor\n");
 					    break;
 					}
 					System.out
-						.println("Introduzca el número de minas");
+						.println("Introduzca el nÃºmero de minas");
 					numeroMinas = (Integer.parseInt(br
 						.readLine()));
 					if (numeroMinas >= dimensiones
 						* dimensiones2) {
 					    System.err
-						    .println("Error. Todas las casillas serán minas, la victoria es imposible\n");
+						    .println("Error. Todas las casillas serÃ¡n minas, la victoria es imposible\n");
 					    break;
 					    
 					}
@@ -97,7 +97,7 @@ public class Buscaminas {
 					}
 				    
 				    if (lineaPartida.equals("e")) {
-					// Volver al menú principal
+					// Volver al menÃº principal
 					partidaMenu = false;
 					corriendo2 = false;
 				    }
@@ -122,7 +122,7 @@ public class Buscaminas {
 				corriendo2 = false;
 			    }
 
-			    // Error en la selección, pausa y regreso al menú
+			    // Error en la selecciÃ³n, pausa y regreso al menÃº
 			    
 			} while (corriendo2);
 
@@ -130,7 +130,7 @@ public class Buscaminas {
 		
 		
 		
-		// Error en la selección, pausa y regreso al menú
+		// Error en la selecciÃ³n, pausa y regreso al menÃº
 			 } while (lenguaje == true);
 	}
     }
